@@ -44,6 +44,6 @@ vignettes/*.pdf
 */Data/
 **/Data/
 
-# HTML files for meeting report
-*.html
-Footer
+# the README files
+*/README_files
+*/README_cache
