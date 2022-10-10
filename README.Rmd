@@ -21,6 +21,7 @@ The language used are mainly bash and R.
 * Mapping and calling for the added data (Brazil, Haiti and French Guiana)
 * Merge & final filters for the whole dataset
 * LD-pruning, MAF filtering for some analysis
+* *Plasmodium praefalciparum* as an outgroup
 
 ## Population structure analysis
 

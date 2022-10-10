@@ -2,7 +2,7 @@ Population genomic evidence of adaptive response during the invasion
 history of *Plasmodium falciparum* in the Americas
 ================
 Margaux Lefebvre
-2022-10-06
+2022-10-10
 
 This repository is for this paper: (citation)
 
@@ -20,6 +20,7 @@ The language used are mainly bash and R.
     Guiana)
 -   Merge & final filters for the whole dataset
 -   LD-pruning, MAF filtering for some analysis
+-   *Plasmodium praefalciparum* as an outgroup
 
 ## Population structure analysis
 
