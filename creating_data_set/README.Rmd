@@ -405,7 +405,7 @@ We polarized the alleles with a homemade Python script (personal communication f
 
 The polarized dataset contains 31,892 SNPs with 2,638 samples.
 
-# Softwares and version
+# Software and version
 
 * bcftools 1.10.2
 * cutadapt 1.18

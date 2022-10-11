@@ -341,7 +341,7 @@ tmp %>%
 
 ![](README_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
-# Softwares and version
+# Software and version
 
 -   vcftools 0.1.16
 -   [easySFS](https://github.com/isaacovercast/easySFS) (last accessed
@@ -372,9 +372,9 @@ tmp %>%
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] rstatix_0.7.0   MASS_7.3-58.1   qqplotr_0.0.5   forcats_0.5.2  
-    ##  [5] stringr_1.4.1   dplyr_1.0.9     purrr_0.3.4     readr_2.1.2    
-    ##  [9] tidyr_1.2.0     tibble_3.1.8    ggplot2_3.3.6   tidyverse_1.3.2
+    ##  [1] rstatix_0.7.0   forcats_0.5.2   stringr_1.4.1   dplyr_1.0.9    
+    ##  [5] purrr_0.3.4     readr_2.1.2     tidyr_1.2.0     tibble_3.1.8   
+    ##  [9] ggplot2_3.3.6   tidyverse_1.3.2
     ## 
     ## loaded via a namespace (and not attached):
     ##  [1] lubridate_1.8.0     assertthat_0.2.1    digest_0.6.29      
@@ -386,17 +386,16 @@ tmp %>%
     ## [19] labeling_0.4.2      googledrive_2.0.0   bit_4.0.4          
     ## [22] munsell_0.5.0       broom_1.0.1         compiler_4.2.1     
     ## [25] modelr_0.1.9        xfun_0.32           pkgconfig_2.0.3    
-    ## [28] htmltools_0.5.3     tidyselect_1.1.2    codetools_0.2-18   
-    ## [31] fansi_1.0.3         crayon_1.5.1        tzdb_0.3.0         
-    ## [34] dbplyr_2.2.1        withr_2.5.0         grid_4.2.1         
-    ## [37] jsonlite_1.8.0      gtable_0.3.0        lifecycle_1.0.1    
-    ## [40] DBI_1.1.3           magrittr_2.0.3      scales_1.2.1       
-    ## [43] carData_3.0-5       cli_3.3.0           stringi_1.7.8      
-    ## [46] vroom_1.5.7         farver_2.1.1        fs_1.5.2           
-    ## [49] robustbase_0.95-0   xml2_1.3.3          ellipsis_0.3.2     
-    ## [52] generics_0.1.3      vctrs_0.4.1         tools_4.2.1        
-    ## [55] bit64_4.0.5         glue_1.6.2          DEoptimR_1.0-11    
-    ## [58] hms_1.1.2           abind_1.4-5         parallel_4.2.1     
-    ## [61] fastmap_1.1.0       yaml_2.3.5          colorspace_2.0-3   
-    ## [64] gargle_1.2.0        rvest_1.0.3         knitr_1.40         
-    ## [67] haven_2.5.1
+    ## [28] htmltools_0.5.3     tidyselect_1.1.2    fansi_1.0.3        
+    ## [31] crayon_1.5.1        tzdb_0.3.0          dbplyr_2.2.1       
+    ## [34] withr_2.5.0         grid_4.2.1          jsonlite_1.8.0     
+    ## [37] gtable_0.3.0        lifecycle_1.0.1     DBI_1.1.3          
+    ## [40] magrittr_2.0.3      scales_1.2.1        carData_3.0-5      
+    ## [43] cli_3.3.0           stringi_1.7.8       vroom_1.5.7        
+    ## [46] farver_2.1.1        fs_1.5.2            xml2_1.3.3         
+    ## [49] ellipsis_0.3.2      generics_0.1.3      vctrs_0.4.1        
+    ## [52] tools_4.2.1         bit64_4.0.5         glue_1.6.2         
+    ## [55] hms_1.1.2           abind_1.4-5         parallel_4.2.1     
+    ## [58] fastmap_1.1.0       yaml_2.3.5          colorspace_2.0-3   
+    ## [61] gargle_1.2.0        rvest_1.0.3         knitr_1.40         
+    ## [64] haven_2.5.1

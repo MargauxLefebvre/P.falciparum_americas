@@ -102,7 +102,7 @@ pi %>%
 The distributions are not normal.
 
 **Are the distribution different ? (non parametric test as the distributions are not normal)**
-```{r, eval=TRUE, cache.lazy=TRUE}
+```{r, eval=TRUE, cache.lazy=TRUE, message=FALSE}
 library(rstatix)
 knitr::kable(pi %>% 
   wilcox_test(PI ~ Country, p.adjust.method = "bonferroni"))
@@ -261,7 +261,7 @@ tmp %>%
   ylab(expression(Ne~(log[10]~ scale)))
 ```
 
-# Softwares and version
+# Software and version
 
 * vcftools 0.1.16
 * [easySFS](https://github.com/isaacovercast/easySFS) (last accessed December 19, 2021)
