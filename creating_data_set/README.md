@@ -7,7 +7,7 @@ This repository is for this paper: (citation)
 
 All the data are available here:
 
-The language used are mainly bash and R.
+The languages used are mainly bash and R.
 
 The main filters and steps to create the dataset are described here :
 ![Filtration and dataset creation steps](./filters_image.jpg)
@@ -454,8 +454,10 @@ unrelated<-data_fam %>%
 # LD-pruning, MAF filtering for some analysis
 
 Some analysis assume a dataset with unlinked variants, so we pruned the
-SNPs (PCA, ADMIXTURE, ADMIXTOOLS2 & TreeMix). We also set a MAF filter
-at 0.1% to remove the doubletons for PCA and ADMIXTURE: adding to plink
+SNPs (PCA, ADMIXTURE, ADMIXTOOLS2 & TreeMix). To keep only independent
+SNPs, we have to prune the genome. Here, in a windows of 50 SNPs and a
+step of 10, we remove SNPs linked above 10%. We also set a MAF filter at
+0.1% to remove the doubletons for PCA and ADMIXTURE: adding to plink
 command `--geno --maf 0.001 --mind`.
 
 ``` bash
