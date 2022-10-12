@@ -1,7 +1,7 @@
 Creating the data set
 ================
 Margaux Lefebvre
-2022-10-10
+2022-10-12
 
 This repository is for this paper: (citation)
 
@@ -106,6 +106,7 @@ Subsequently, the VCFs were combined and separated by chromosome
 ``` bash
 ARR_CHR=(01 02 03 04 05 06 07 08 09 10 11 12 13 14)
 for CHR in ${ARR_CHR[@]}
+do
   # Extract the positions of the core genome
   bcftools query -f '%CHROM\t%POS\n' Chr_Sanger_${CHR}.vcf.gz > Chr_${CHR}_SNP.txt
   # Merge the two datasets
@@ -489,13 +490,11 @@ communication from a colleague), with at least no missing data in one
 
 The polarized dataset contains 31,892 SNPs with 2,638 samples.
 
-# Softwares and version
-
-**Softwares used:**
+# Software and version
 
 -   bcftools 1.10.2
 -   cutadapt 1.18
--   bwa
+-   bwa 0.7.17
 -   samtools 1.10
 -   picard tools 2.5.0
 -   GATK 3.8.0
@@ -507,7 +506,7 @@ The polarized dataset contains 31,892 SNPs with 2,638 samples.
 -   PLINK 2
 -   Python 3.9.5
 
-<!-- -->
+**R session info and packages:**
 
     ## R version 4.2.1 (2022-06-23)
     ## Platform: x86_64-pc-linux-gnu (64-bit)
