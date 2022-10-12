@@ -42,8 +42,8 @@ The languages used are mainly bash and R. At the end of the README of each part,
 
 ## [Population genetic diversity and demographic history](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#population-genetic-diversity-and-demographic-history)
 
-* [$\pi$ and Tajima's *D*](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#pi-and-tajimas-d)
-  * [$\pi$](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#pi)
+* [π and Tajima's *D*](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#pi-and-tajimas-d)
+  * [π](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#pi)
   * [Tajima's *D*](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#tajimas-d)
 * [Stairway Plot 2](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#stairway-plot-2)
   * [Create the SFS](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#create-the-sfs)

@@ -57,9 +57,9 @@ version) and the information of the R session.
 
 ## [Population genetic diversity and demographic history](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#population-genetic-diversity-and-demographic-history)
 
--   [$\pi$ and Tajima’s
+-   [π and Tajima’s
     *D*](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#pi-and-tajimas-d)
-    -   [$\pi$](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#pi)
+    -   [π](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#pi)
     -   [Tajima’s
         *D*](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#tajimas-d)
 -   [Stairway Plot
