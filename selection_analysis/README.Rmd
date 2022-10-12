@@ -432,4 +432,3 @@ p1+geom_point(data=ABS_selection, aes(x = bp_cum, y =score), color = "firebrick1
 ```{r, eval=TRUE, echo=FALSE}
 sessionInfo()
 ```
-
