@@ -2,44 +2,85 @@ Population genomic evidence of adaptive response during the invasion
 history of *Plasmodium falciparum* in the Americas
 ================
 Margaux Lefebvre
-2022-10-10
+2022-10-12
 
 This repository is for this paper: (citation)
 
 All the data are available here:
 
-The language used are mainly bash and R.
+The languages used are mainly bash and R. At the end of the README of
+each part, there is a description of the software used (with its
+version) and the information of the R session.
 
 # Summary
 
-## Creating the data set
+## [Creating the data set](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/creating_data_set#creating-the-data-set)
 
--   Primary filters for the data from *P. falciparum* Community Project
-    conducted by MalariaGen
--   Mapping and calling for the added data (Brazil, Haiti and French
-    Guiana)
--   Merge & final filters for the whole dataset
--   LD-pruning, MAF filtering for some analysis
--   *Plasmodium praefalciparum* as an outgroup
+-   [Primary filters for the data from *P. falciparum* Community Project
+    conducted by
+    MalariaGen](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/creating_data_set#primary-filters-for-the-data-from-p-falciparum-community-project-conducted-by-malariagen-blue)
+-   [Mapping and calling for the added data (Brazil, Haiti and French
+    Guiana)](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/creating_data_set#mapping-and-calling-for-the-added-data-brazil-haiti-and-french-guiana-yellow)
+-   [Merge & final filters for the whole
+    dataset](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/creating_data_set#merge--final-filters-for-the-whole-dataset-green)
+    -   [Merge the
+        data](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/creating_data_set#merge-the-data)
+    -   [Analysis on the
+        VCF](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/creating_data_set#analysis-on-the-vcf)
+    -   [Filter multi-clonal
+        infections](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/creating_data_set#filter-multi-clonal-infections)
+    -   [Filter related
+        strains](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/creating_data_set#filter-the-related-strains)
+-   [LD-pruning, MAF filtering for some
+    analysis](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/creating_data_set#ld-pruning-maf-filtering-for-some-analysis)
+-   [*Plasmodium praefalciparum* as an
+    outgroup](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/creating_data_set#plasmodium-praefalciparum-as-an-outgroup)
 
-## Population structure analysis
+## [Population structure analysis](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/population_structure#population-structure-analysis)
 
--   PCA
--   ADMIXTURE
--   TreeMix
--   ADMIXTOOLS2
+-   [PCA](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/population_structure#pca)
+-   [ADMIXTURE](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/population_structure#admixture)
+-   [TreeMix](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/population_structure#treemix)
+    -   [The input
+        format](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/population_structure#the-input-format)
+    -   [Find the optimal number of migration
+        edges](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/population_structure#find-the-optimal-number-of-migration-edges)
+    -   [Find the consensus
+        tree](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/population_structure#find-the-consensus-tree)
+-   [ADMIXTOOLS2](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/population_structure#admixtools2)
+    -   [Find the best admixture events
+        number](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/population_structure#find-the-best-admixture-events-number)
+    -   [Find the best
+        graph](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/population_structure#find-the-best-graph)
+    -   [The goodness of
+        fit](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/population_structure#the-goodness-of-fit)
 
-## Population genetic diversity and demographic history
+## [Population genetic diversity and demographic history](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#population-genetic-diversity-and-demographic-history)
 
--   $\pi$ and Tajima’s *D*
--   Stairway Plot 2
+-   [$\pi$ and Tajima’s
+    *D*](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#pi-and-tajimas-d)
+    -   [$\pi$](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#pi)
+    -   [Tajima’s
+        *D*](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#tajimas-d)
+-   [Stairway Plot
+    2](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#stairway-plot-2)
+    -   [Create the
+        SFS](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#create-the-sfs)
+    -   [The blueprint
+        file](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#the-blueprint-file)
+    -   [Running and
+        results](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/diversity_demography#running-and-results)
 
-## Selection scan
+## [Selection scan](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/selection_analysis#selection-scan)
 
--   Rsb and XP-EHH
--   ABS
+-   [*Rsb* and
+    *XP-EHH*](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/selection_analysis#rsb-and-xp-ehh)
+    -   [*Rsb*](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/selection_analysis#rsb)
+    -   [*XP-EHH*](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/selection_analysis#xp-ehh)
+-   [*ABS*](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/selection_analysis#abs)
 
-## Detection of introgression
+## [Detection of introgression](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/introgression#detection-of-introgression)
 
--   RND
--   Haplotype networks
+-   [*RND*](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/introgression#rnd)
+-   [Haplotype
+    networks](https://github.com/MargauxLefebvre/P.falciparum_americas/tree/main/introgression#haplotype-networks)
