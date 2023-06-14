@@ -4,9 +4,7 @@ history of *Plasmodium falciparum* in the Americas
 Margaux Lefebvre
 2022-10-12
 
-This repository is for this paper: (citation)
-
-All the data are available here:
+This repository is for this paper: (Margaux J M Lefebvre and others, Population Genomic Evidence of Adaptive Response during the Invasion History of Plasmodium falciparum in the Americas, Molecular Biology and Evolution, Volume 40, Issue 5, May 2023, msad082)[https://doi.org/10.1093/molbev/msad082]
 
 The languages used are mainly bash and R. At the end of the README of
 each part, there is a description of the software used (with its
